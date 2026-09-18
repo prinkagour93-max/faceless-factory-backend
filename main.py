@@ -24,7 +24,8 @@ class VideoRequest(BaseModel):
     resolution: str = "1080p"
 
 # 🔑 API Keys कॉन्फ़िगरेशन (इन्हें सुरक्षा के लिए पर्यावरण चरों (Environment Variables) से उठाएंगे)
-OPENAI_API_KEY =  "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"
+OPENAI_API_KEY =  "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"
+
 ELEVENLABS_API_KEY =  "sk_35b4bc8b21c0226301ae1acecb7dbd6f734020f20eff73ce"
 
 # API KEYS CONFIGURATION (Strictly Locked)
