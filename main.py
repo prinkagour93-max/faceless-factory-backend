@@ -43,7 +43,7 @@ async def async_video_render_pipeline(prompt: str):
         openai_headers = {
             "Authorization": f"Bearer {OPENAI_API_KEY}",
             "Content-Type": "application/json"
-        }
+        
         
         openai_data = {
             "model": "gpt-4o",
