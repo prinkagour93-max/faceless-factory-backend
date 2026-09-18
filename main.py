@@ -42,7 +42,7 @@ async def async_video_render_pipeline(prompt: str):
         print(f"🧠 [Brain] Requesting OpenAI GPT-4o for Script...")
         openai_headers = {
             "Authorization": f"Bearer {OPENAI_API_KEY}",
-            "Content-Type": "application/json"
+            "Content-Type": "application/json",
         
         
         openai_data = {
